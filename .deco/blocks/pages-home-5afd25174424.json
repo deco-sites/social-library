@@ -1,42 +1,96 @@
 {
-    "name": "Home",
-    "path": "/",
-    "sections": [
-      {
-        "__resolveType": "Header"
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/GridCarouselBanner.tsx",
+      "gridLine": [
+        {
+          "gridLayout": {
+            "images": [
+              {
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12154/89020c21-f3a4-4e3b-94b1-9f7aad627649",
+                "width": 350,
+                "height": 350,
+                "alt": "E-commerce"
+              },
+              {
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12154/21b2a021-6507-4c95-8eef-7d597cdc33bc",
+                "width": 350,
+                "height": 350,
+                "alt": "World Wide Web"
+              }
+            ],
+            "gridPosition": "2-2"
+          }
+        }
+      ],
+      "sectionBgColor": "#000000",
+      "paddingTop": {
+        "desktop": 0,
+        "mobile": 0
       },
-      {
-        "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "cta": [],
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
+      "marginTop": {
+        "desktop": 2,
+        "mobile": 2
       },
-      {
-        "__resolveType": "site/sections/Logos.tsx"
+      "paddingInline": {
+        "desktop": 0,
+        "mobile": 0
       },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "right"
-      },
-      {
-        "__resolveType": "site/sections/BlogPosts.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Testimonials.tsx",
-        "arrows": true
-      },
-      {
-        "__resolveType": "site/sections/Faq.tsx"
-      },
-      {
-        "__resolveType": "Footer"
-      }
-    ],
-    "__resolveType": "website/pages/Page.tsx",
-    "seo": {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx"
+      "showDots": true,
+      "showArrows": true,
+      "darkTheme": false,
+      "imagesForCarousel": [
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12154/21b2a021-6507-4c95-8eef-7d597cdc33bc",
+          "width": 475,
+          "height": 475,
+          "alt": "World Wide Web"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12154/89020c21-f3a4-4e3b-94b1-9f7aad627649",
+          "width": 475,
+          "height": 475,
+          "alt": "E-commerce"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p>Click here to tweak this text however you want.</p>",
+      "cta": [],
+      "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
+    },
+    {
+      "__resolveType": "site/sections/Logos.tsx"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "placement": "right"
+    },
+    {
+      "__resolveType": "site/sections/BlogPosts.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Testimonials.tsx",
+      "arrows": true
+    },
+    {
+      "__resolveType": "site/sections/Faq.tsx"
+    },
+    {
+      "__resolveType": "Footer"
     }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }
+}
